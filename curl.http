@@ -1,0 +1,4 @@
+export SERVER_PORT=8000
+
+curl localhost:$SERVER_PORT/hello/world/
+curl localhost:$SERVER_PORT/hello/world/../
