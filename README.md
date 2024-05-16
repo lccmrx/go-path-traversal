@@ -4,8 +4,8 @@ As well known, path traversal attacks are a type of attack where an attacker
 tries to acquire access to restricted routes in your webserver.
 
 Say you created some routes as shown:
-- INTERNAL GET /hello/
-- PUBLIC   GET /hello/world
+- INTERNAL&nbsp; GET /hello/
+- PUBLIC  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GET /hello/world
 
 And you would apply some middleware routing rules between them.
 
